@@ -1,3 +1,4 @@
 import CustomCard  from './CustomCard'
+import CustomSelect  from './CustomSelect'
 
-export { CustomCard }
+export { CustomCard, CustomSelect }

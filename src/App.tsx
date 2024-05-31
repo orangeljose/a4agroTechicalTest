@@ -1,6 +1,6 @@
 import './App.css'
-import WebRouter from "./router/WebRouter";
-import { BrowserRouter } from "react-router-dom";
+import WebRouter from "./router/WebRouter"
+import { BrowserRouter } from "react-router-dom"
 
 function App() {
 
