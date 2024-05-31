@@ -2,7 +2,7 @@ import ReactApexChart from "react-apexcharts"
 import { useState, useEffect } from "react"
 import { Coins as CoinsClass} from "../../services/Coins"
 import { Chart } from "../../interfaces/interfaces"
-import { ApexOptions, ApexAxisChartSeries } from "apexcharts"
+import { ApexOptions } from "apexcharts"
 import Loader from './../Loader/Loader'
 
 const CandleChart = (props:{chart:Chart, exist: (selectedValue: boolean) => void}) => {
@@ -13,7 +13,7 @@ interface ApiResponse {
     y: [number, number, number, number];
   }
   const [showLoader, SetShowLoader] = useState<boolean>(true)
-  const [series, setSeries] = useState<ApexAxisChartSeries>([])
+  const [series, setSeries] = useState<ApiResponse[]>([])
     useEffect(() => {
       (async () => {
         try {
