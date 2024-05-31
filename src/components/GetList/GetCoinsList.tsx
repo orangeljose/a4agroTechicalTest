@@ -48,7 +48,7 @@ const GetCoinsList = () => {
                     My favorite cryptocurrencies 
                 </h6>
                 <p className="mb-4 text-lg font-medium leading-tight">
-                    (i trade with them and lost...)
+                    (I tried trading. It didnt end well)
                 </p>
             </div>
         </>
